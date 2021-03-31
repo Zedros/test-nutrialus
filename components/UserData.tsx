@@ -2,8 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native'
 
 export default function UserData({ dataUsuario }: any) {
-
-    const { email, image, name, nutritionist, phone } = dataUsuario;
+    const { email,image, name, nutritionist, phone } = dataUsuario;
 
     return (
         <View style={[styles.userCard, styles.shadowBox]} >
@@ -11,10 +10,8 @@ export default function UserData({ dataUsuario }: any) {
                 <Image
                     style={[styles.userImage,styles.shadowBox]}
                     source={{
-                        uri: image,
-                        cache: 'reload',
+                        uri: image + '?' + new Date()
                     }}
-                    key={Date.now()}
                 />
                 <Text style={styles.nombreUsuario}>{name}</Text>
 
