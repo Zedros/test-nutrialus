@@ -8,7 +8,7 @@ export default function UserData({ dataUsuario }: any) {
         <View style={[styles.userCard, styles.shadowBox]} >
             <View style={styles.userCardTop}>
                 <Image
-                    style={[styles.userImage,styles.shadowBox]}
+                    style={[styles.userImage]}
                     source={{
                         uri: image + '?' + new Date()
                     }}
