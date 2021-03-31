@@ -31,13 +31,12 @@ const styles = StyleSheet.create({
     nombreUsuario:{
         fontSize: 18,
         fontWeight: '700',
-        fontFamily: 'Arial',
         color:'#2B2350'
     },
     userCard: {
         position: 'relative',
         height: 350,
-        width: 250,
+        width: 300,
         backgroundColor: 'white',
         borderRadius: 30
     },
@@ -62,7 +61,6 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         borderBottomRightRadius:30,
         borderBottomLeftRadius:30,
-        fontFamily:'Arial'
     },
     userImage: {
         alignSelf: 'center',
@@ -70,7 +68,6 @@ const styles = StyleSheet.create({
         height: 100,
         borderRadius: 100,
         marginBottom : 10,
-        border: 'solid',
         borderWidth: 3,
         borderColor: 'white',
     },
@@ -86,7 +83,6 @@ const styles = StyleSheet.create({
         elevation: 11,
     },
     textUserInformation:{
-        fontFamily:'Helvetica',
         fontSize:15,
         color:'#2B2350'
 
